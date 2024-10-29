@@ -1,8 +1,9 @@
 bool palindrome(String str) {
-  /* Declared a function called palindrome and its parameter is str.
+  /* 
+     Declared a function called palindrome and its parameter is str.
      The function will be used to determine if a string is a palindrome or not.
      Palindrome is a sequence of characters that check if the character is same forward and backward.
-   */
+  */
 
   // Convert the string to lowercase and filter out non-alphanumeric characters
   String character = str.toLowerCase().replaceAll(RegExp(r'[^a-z0-9]'), '');
