@@ -2,7 +2,6 @@ bool palindrome(String str) {
   /* Declared a function called palindrome and its parameter is str.
      The function will be used to determine if a string is a palindrome or not.
      Palindrome is a sequence of characters that check if the character is same forward and backward.
-     The linear time complexity of this algorithm is O(n), where n is the length of the input string.
    */
 
   // Convert the string to lowercase and filter out non-alphanumeric characters
